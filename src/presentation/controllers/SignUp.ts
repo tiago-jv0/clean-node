@@ -11,5 +11,10 @@ export class SignUpController implements Controller {
         return badRequest(new MissingParamError(field))
       }
     }
+
+    return {
+      statusCode: 200,
+      body: {}
+    }
   }
 }
