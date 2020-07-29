@@ -25,7 +25,7 @@ export class SignUpController implements Controller {
     }
 
     // return {
-    //   statusCode: 200,
+    //   statusCode: 201,
     //   body: {}
     // }
   }
